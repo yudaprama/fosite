@@ -45,27 +45,27 @@ func (h *HMACSHAStrategy) setPrefix(token, part string) string {
 
 func (h *HMACSHAStrategy) GenerateAccessToken(ctx context.Context, r fosite.Requester) (token string, signature string, err error) {
 	token, sig, err := h.HMACSHAStrategyUnPrefixed.GenerateAccessToken(ctx, r)
-	return h.setPrefix(token, "at"), sig, err
+	return token, sig, err
 }
 
 func (h *HMACSHAStrategy) ValidateAccessToken(ctx context.Context, r fosite.Requester, token string) (err error) {
-	return h.HMACSHAStrategyUnPrefixed.ValidateAccessToken(ctx, r, h.trimPrefix(token, "at"))
+	return h.HMACSHAStrategyUnPrefixed.ValidateAccessToken(ctx, r, token)
 }
 
 func (h *HMACSHAStrategy) GenerateRefreshToken(ctx context.Context, r fosite.Requester) (token string, signature string, err error) {
 	token, sig, err := h.HMACSHAStrategyUnPrefixed.GenerateRefreshToken(ctx, r)
-	return h.setPrefix(token, "rt"), sig, err
+	return token, sig, err
 }
 
 func (h *HMACSHAStrategy) ValidateRefreshToken(ctx context.Context, r fosite.Requester, token string) (err error) {
-	return h.HMACSHAStrategyUnPrefixed.ValidateRefreshToken(ctx, r, h.trimPrefix(token, "rt"))
+	return h.HMACSHAStrategyUnPrefixed.ValidateRefreshToken(ctx, r, token)
 }
 
 func (h *HMACSHAStrategy) GenerateAuthorizeCode(ctx context.Context, r fosite.Requester) (token string, signature string, err error) {
 	token, sig, err := h.HMACSHAStrategyUnPrefixed.GenerateAuthorizeCode(ctx, r)
-	return h.setPrefix(token, "ac"), sig, err
+	return token, sig, err
 }
 
 func (h *HMACSHAStrategy) ValidateAuthorizeCode(ctx context.Context, r fosite.Requester, token string) (err error) {
-	return h.HMACSHAStrategyUnPrefixed.ValidateAuthorizeCode(ctx, r, h.trimPrefix(token, "ac"))
+	return h.HMACSHAStrategyUnPrefixed.ValidateAuthorizeCode(ctx, r, token)
 }
