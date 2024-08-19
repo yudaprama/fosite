@@ -4,8 +4,8 @@
 package compose
 
 import (
-	"github.com/ory/fosite"
-	"github.com/ory/fosite/handler/par"
+	"github.com/yudaprama/fosite"
+	"github.com/yudaprama/fosite/handler/par"
 )
 
 // PushedAuthorizeHandlerFactory creates the basic PAR handler

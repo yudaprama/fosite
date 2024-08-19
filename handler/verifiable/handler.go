@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ory/fosite"
+	"github.com/yudaprama/fosite"
 	"github.com/ory/x/errorsx"
 )
 

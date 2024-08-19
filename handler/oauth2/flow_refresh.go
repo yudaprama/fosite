@@ -13,8 +13,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/fosite"
-	"github.com/ory/fosite/storage"
+	"github.com/yudaprama/fosite"
+	"github.com/yudaprama/fosite/storage"
 )
 
 var _ fosite.TokenEndpointHandler = (*RefreshTokenGrantHandler)(nil)

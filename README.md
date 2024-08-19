@@ -193,7 +193,7 @@ scope strategy if you need a custom one by implementing `fosite.ScopeStrategy`.
 Using the composer, setting a strategy is easy:
 
 ```go
-import "github.com/ory/fosite"
+import "github.com/yudaprama/fosite"
 
 var config = &fosite.Config{
 ScopeStrategy: fosite.HierarchicScopeStrategy,
