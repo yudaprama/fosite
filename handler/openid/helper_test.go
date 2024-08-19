@@ -9,15 +9,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yudaprama/fosite/internal/gen"
+	"github.com/ory/fosite/internal/gen"
 
 	"github.com/golang/mock/gomock"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yudaprama/fosite"
-	"github.com/yudaprama/fosite/internal"
-	"github.com/yudaprama/fosite/token/jwt"
+	"github.com/ory/fosite"
+	"github.com/ory/fosite/internal"
+	"github.com/ory/fosite/token/jwt"
 )
 
 var strat = &DefaultStrategy{

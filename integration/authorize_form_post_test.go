@@ -11,19 +11,19 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yudaprama/fosite/internal/gen"
+	"github.com/ory/fosite/internal/gen"
 
-	"github.com/yudaprama/fosite/handler/openid"
-	"github.com/yudaprama/fosite/internal"
-	"github.com/yudaprama/fosite/token/jwt"
+	"github.com/ory/fosite/handler/openid"
+	"github.com/ory/fosite/internal"
+	"github.com/ory/fosite/token/jwt"
 
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	goauth "golang.org/x/oauth2"
 
-	"github.com/yudaprama/fosite"
-	"github.com/yudaprama/fosite/compose"
+	"github.com/ory/fosite"
+	"github.com/ory/fosite/compose"
 )
 
 type formPostTestCase struct {

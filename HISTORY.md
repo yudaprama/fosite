@@ -141,7 +141,7 @@ This release makes it easier to define custom JWT Containers for access tokens
 when using the JWT strategy. To do that, the following signatures have changed:
 
 ```go
-// github.com/yudaprama/fosite/handler/oauth2
+// github.com/ory/fosite/handler/oauth2
 type JWTSessionContainer interface {
 	// GetJWTClaims returns the claims.
 -	GetJWTClaims() *jwt.JWTClaims

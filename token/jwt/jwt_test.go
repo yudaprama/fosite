@@ -12,7 +12,7 @@ import (
 
 	"github.com/go-jose/go-jose/v3"
 
-	"github.com/yudaprama/fosite/internal/gen"
+	"github.com/ory/fosite/internal/gen"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

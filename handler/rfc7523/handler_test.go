@@ -16,15 +16,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yudaprama/fosite/handler/oauth2"
+	"github.com/ory/fosite/handler/oauth2"
 
 	"github.com/go-jose/go-jose/v3"
 	"github.com/go-jose/go-jose/v3/jwt"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/yudaprama/fosite"
-	"github.com/yudaprama/fosite/internal"
+	"github.com/ory/fosite"
+	"github.com/ory/fosite/internal"
 )
 
 // Define the suite, and absorb the built-in basic suite

@@ -13,7 +13,7 @@ import (
 
 	"golang.org/x/text/language"
 
-	"github.com/yudaprama/fosite/i18n"
+	"github.com/ory/fosite/i18n"
 	"github.com/ory/x/errorsx"
 
 	"github.com/pkg/errors"

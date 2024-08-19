@@ -12,21 +12,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yudaprama/fosite/internal"
-	"github.com/yudaprama/fosite/internal/gen"
+	"github.com/ory/fosite/internal"
+	"github.com/ory/fosite/internal/gen"
 
 	"github.com/go-jose/go-jose/v3"
 	"github.com/gorilla/mux"
 	goauth "golang.org/x/oauth2"
 	"golang.org/x/oauth2/clientcredentials"
 
-	"github.com/yudaprama/fosite"
-	"github.com/yudaprama/fosite/handler/oauth2"
-	"github.com/yudaprama/fosite/handler/openid"
-	"github.com/yudaprama/fosite/integration/clients"
-	"github.com/yudaprama/fosite/storage"
-	"github.com/yudaprama/fosite/token/hmac"
-	"github.com/yudaprama/fosite/token/jwt"
+	"github.com/ory/fosite"
+	"github.com/ory/fosite/handler/oauth2"
+	"github.com/ory/fosite/handler/openid"
+	"github.com/ory/fosite/integration/clients"
+	"github.com/ory/fosite/storage"
+	"github.com/ory/fosite/token/hmac"
+	"github.com/ory/fosite/token/jwt"
 )
 
 const (

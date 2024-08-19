@@ -6,7 +6,7 @@ package pkce
 import (
 	"context"
 
-	"github.com/yudaprama/fosite"
+	"github.com/ory/fosite"
 )
 
 type PKCERequestStorage interface {

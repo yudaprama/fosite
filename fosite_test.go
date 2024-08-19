@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	. "github.com/yudaprama/fosite"
-	"github.com/yudaprama/fosite/handler/oauth2"
-	"github.com/yudaprama/fosite/handler/par"
+	. "github.com/ory/fosite"
+	"github.com/ory/fosite/handler/oauth2"
+	"github.com/ory/fosite/handler/par"
 )
 
 func TestAuthorizeEndpointHandlers(t *testing.T) {

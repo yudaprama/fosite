@@ -4,9 +4,9 @@
 package compose
 
 import (
-	"github.com/yudaprama/fosite"
-	"github.com/yudaprama/fosite/handler/oauth2"
-	"github.com/yudaprama/fosite/handler/pkce"
+	"github.com/ory/fosite"
+	"github.com/ory/fosite/handler/oauth2"
+	"github.com/ory/fosite/handler/pkce"
 )
 
 // OAuth2PKCEFactory creates a PKCE handler.

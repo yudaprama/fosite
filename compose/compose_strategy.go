@@ -6,11 +6,11 @@ package compose
 import (
 	"context"
 
-	"github.com/yudaprama/fosite"
-	"github.com/yudaprama/fosite/handler/oauth2"
-	"github.com/yudaprama/fosite/handler/openid"
-	"github.com/yudaprama/fosite/token/hmac"
-	"github.com/yudaprama/fosite/token/jwt"
+	"github.com/ory/fosite"
+	"github.com/ory/fosite/handler/oauth2"
+	"github.com/ory/fosite/handler/openid"
+	"github.com/ory/fosite/token/hmac"
+	"github.com/ory/fosite/token/jwt"
 )
 
 type CommonStrategy struct {

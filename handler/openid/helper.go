@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/yudaprama/fosite"
+	"github.com/ory/fosite"
 )
 
 type IDTokenHandleHelper struct {

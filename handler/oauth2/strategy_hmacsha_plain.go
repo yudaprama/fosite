@@ -9,8 +9,8 @@ import (
 
 	"github.com/ory/x/errorsx"
 
-	"github.com/yudaprama/fosite"
-	enigma "github.com/yudaprama/fosite/token/hmac"
+	"github.com/ory/fosite"
+	enigma "github.com/ory/fosite/token/hmac"
 )
 
 var _ CoreStrategy = (*HMACSHAStrategyUnPrefixed)(nil)

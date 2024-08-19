@@ -11,8 +11,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	. "github.com/yudaprama/fosite"
-	. "github.com/yudaprama/fosite/internal"
+	. "github.com/ory/fosite"
+	. "github.com/ory/fosite/internal"
 )
 
 func TestWriteAccessResponse(t *testing.T) {

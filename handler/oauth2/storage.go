@@ -6,7 +6,7 @@ package oauth2
 import (
 	"context"
 
-	"github.com/yudaprama/fosite"
+	"github.com/ory/fosite"
 )
 
 type CoreStorage interface {
